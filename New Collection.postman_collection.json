@@ -1,0 +1,99 @@
+{
+	"info": {
+		"_postman_id": "3283d11e-0bb9-4381-946f-813047578e8e",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21635700"
+	},
+	"item": [
+		{
+			"name": "northwind.now.sh/api/categories",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": " {\r\n\r\n        \"description\": \"dilara\",\r\n        \"name\": \"sdfghgfds\"\r\n    },"
+				},
+				"url": {
+					"raw": "northwind.now.sh/api/categories",
+					"host": [
+						"northwind",
+						"now",
+						"sh"
+					],
+					"path": [
+						"api",
+						"categories"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "northwind.now.sh/api/categories",
+					"host": [
+						"northwind",
+						"now",
+						"sh"
+					],
+					"path": [
+						"api",
+						"categories"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "  {\r\n  \r\n        \"description\": \"Sweet and savory sauces relishes spreads and seasonings\",\r\n        \"name\": \"llllllllll\"\r\n    }"
+				},
+				"url": {
+					"raw": "northwind.now.sh/api/categories",
+					"host": [
+						"northwind",
+						"now",
+						"sh"
+					],
+					"path": [
+						"api",
+						"categories"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "DELETE northwind.now.sh/api/categories/3",
+					"host": [
+						"DELETE northwind",
+						"now",
+						"sh"
+					],
+					"path": [
+						"api",
+						"categories",
+						"3"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
